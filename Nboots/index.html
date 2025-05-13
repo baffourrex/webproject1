@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Building a Webpage Using Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  </head>
+  <body>
+        
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="nature1.png" alt="nature1" width="80"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#destinations">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="nature1.png" class="d-block w-100" alt="nature1">
+      </div>
+      <div class="carousel-item">
+        <img src="tarzan1.png" class="d-block w-100" alt="tarzan1">
+      </div>
+      <div class="carousel-item">
+        <img src="nature1.png" class="d-block w-100" alt="nature1">
+      </div>
+      <div class="carousel-item">
+        <img src="tarzan1.png" class="d-block w-100" alt="tarzan1">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Main Container -->
+   <div class="container">
+      <h1 class="text-center p-5 mb-5 mt-5">Tour Canada Today!</h1>
+      <div class="w-100 bg-dark-subtle p-5 mb-5">
+        
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta accusantium maxime et voluptate tempora 
+          inventore voluptates excepturi omnis dolores placeat officiis nulla aliquid id autem provident, dignissimos
+           veritatis saepe eius perferendis voluptatum possimus? Voluptas voluptates, totam, possimus esse assumenda 
+           soluta dignissimos aliquam magnam asperiores minus sunt adipisci mollitia veniam perspiciatis. Magnam quam 
+           a tempora dicta delectus sequi maxime harum, numquam minima unde vitae dolorem amet corrupti ratione vero 
+           error quos iste id officiis voluptatibus officia nobis quae distinctio veniam! Sequi labore cumque, vel 
+           libero commodi laborum facere ad perspiciatis exercitationem laboriosam ducimus deserunt veritatis, quibusdam blanditiis pariatur ut tempore? Deleniti!</p> 
+          <button type="button" class="btn btn-primary btn-lg">Book Your Trip Now</button>
+      </div>
+      <h2 id="destinations" class="fs-1 p-5 mt-5 mb-5 text-center">POPULAR DESTINATIONS</h2>
+
+      <div class="row">
+        <div class="col">
+        <!-- Card 1-->
+        <div class="card">
+          <img src="nature1.png" class="card-img-top" alt="nature1">
+          <div class="card-body">
+            <h5 class="card-title">Banff</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aliquam 
+              perferendis ipsam sapiente alias doloremque iste accusamus animi quas error quasi cupiditate 
+              odio, enim delectus. Minima non ipsa ducimus odit.</p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+        <!-- Card 2-->
+        <div class="card">
+          <img src="tarzan1.png" class="card-img-top" alt="tarzan1">
+          <div class="card-body">
+            <h5 class="card-title">Peggy's Cove</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aliquam 
+              perferendis ipsam sapiente alias doloremque iste accusamus animi quas error quasi cupiditate 
+              odio, enim delectus. Minima non ipsa ducimus odit.</p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+        <!-- Card 3-->
+        <div class="card">
+          <img src="nature1.png" class="card-img-top" alt="nature1">
+          <div class="card-body">
+            <h5 class="card-title">Yukon</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aliquam 
+              perferendis ipsam sapiente alias doloremque iste accusamus animi quas error quasi cupiditate 
+              odio, enim delectus. Minima non ipsa ducimus odit.</p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    <!-- About -->
+    <h2 id="about" class="fs-1 p-5 mt-5 mb-5 text-center">ABOUT</h2>
+      <div class="row">
+      <div class="col-6">
+        <div class="bg-secondary text-white p-5 mt-5 mb-5">
+          <h2>Rates</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi totam, amet nesciunt eius 
+            laudantium tempora soluta nihil eos itaque delectus quis, quos explicabo illo magnam voluptatum
+             eligendi ipsam et esse similique mollitia ipsa distinctio doloremque fugiat. Dolorum eius maiores
+              exercitationem sunt, possimus quae ducimus nemo, rem aut enim, culpa illo.</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="bg-dark-subtle p-5 mt-5 mb-5">
+          <h2>Fees</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi totam, amet nesciunt eius 
+            laudantium tempora soluta nihil eos itaque delectus quis, quos explicabo illo magnam voluptatum
+             eligendi ipsam et esse similique mollitia ipsa distinctio doloremque fugiat. Dolorum eius maiores
+              exercitationem sunt, possimus quae ducimus nemo, rem aut enim, culpa illo.</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="bg-dark-subtle p-5 mt-5 mb-5">
+          <h2>Popular Sites</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi totam, amet nesciunt eius 
+            laudantium tempora soluta nihil eos itaque delectus quis, quos explicabo illo magnam voluptatum
+             eligendi ipsam et esse similique mollitia ipsa distinctio doloremque fugiat. Dolorum eius maiores
+              exercitationem sunt, possimus quae ducimus nemo, rem aut enim, culpa illo.</p>
+        </div>
+      </div>
+        <div class="col-6">
+        <div class="bg-secondary text-white p-5 mt-5 mb-5">
+          <h2>Features</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi totam, amet nesciunt eius 
+            laudantium tempora soluta nihil eos itaque delectus quis, quos explicabo illo magnam voluptatum
+             eligendi ipsam et esse similique mollitia ipsa distinctio doloremque fugiat. Dolorum eius maiores
+              exercitationem sunt, possimus quae ducimus nemo, rem aut enim, culpa illo.</p>
+        </div>
+        </div>
+      </div>
+    <!--Contact Us-->
+    <h2 id="contact" class="fs-1 p-5 mt-5 mb-5 text-center">CONTACT US</h2>
+
+      <div class="container">
+        <h1 class="text-center p-5 mb-5 mt-5">Tour Canada Today!</h1>
+        <div class="w-100 bg-dark-subtle p-5 mb-5">
+        
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta accusantium maxime et voluptate tempora 
+          inventore voluptates excepturi omnis dolores placeat officiis nulla aliquid id autem provident, dignissimos
+           veritatis saepe eius perferendis voluptatum possimus? Voluptas voluptates, totam, possimus esse assumenda 
+           soluta dignissimos aliquam magnam asperiores minus sunt adipisci mollitia veniam perspiciatis. Magnam quam 
+           a tempora dicta delectus sequi maxime harum, numquam minima unde vitae dolorem amet corrupti ratione vero 
+           error quos iste id officiis voluptatibus officia nobis quae distinctio veniam! Sequi labore cumque, vel 
+           libero commodi laborum facere ad perspiciatis exercitationem laboriosam ducimus deserunt veritatis, quibusdam blanditiis pariatur ut tempore? Deleniti!</p> 
+          <button type="button" class="btn btn-primary btn-lg"><a href="mailto: Xedicus@gmail.com" 
+            class="text-white text-decoration-none">Contact Us For More Information</a></button>
+        </div>
+
+        <h2  class="fs-1 p-5 mt-5 mb-5 text-center">RELAX IN CANADA</h2>
+        <img src="nature1.png" alt="nature1" class="w-100 mb-5">
+    </div>
+    
+
+      </div>  
+<!-- End of .container -->
+
+      <footer class="bg-dark mt-5 p-5 text-white text-center">
+        <p>&copy; Tour Canada Today</p>
+        <p><a href="mailto: Xedicus@gmail.com" class="text-white">Email Us</a></p>
+      </footer>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
